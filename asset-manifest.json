@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Travel-Faro/static/css/main.c90ffc6e.chunk.css",
+    "main.js": "/Travel-Faro/static/js/main.cb21a13e.chunk.js",
+    "main.js.map": "/Travel-Faro/static/js/main.cb21a13e.chunk.js.map",
+    "runtime-main.js": "/Travel-Faro/static/js/runtime-main.bfb5a1f0.js",
+    "runtime-main.js.map": "/Travel-Faro/static/js/runtime-main.bfb5a1f0.js.map",
+    "static/js/2.a3a14cc9.chunk.js": "/Travel-Faro/static/js/2.a3a14cc9.chunk.js",
+    "static/js/2.a3a14cc9.chunk.js.map": "/Travel-Faro/static/js/2.a3a14cc9.chunk.js.map",
+    "static/js/3.7c5853cd.chunk.js": "/Travel-Faro/static/js/3.7c5853cd.chunk.js",
+    "static/js/3.7c5853cd.chunk.js.map": "/Travel-Faro/static/js/3.7c5853cd.chunk.js.map",
+    "index.html": "/Travel-Faro/index.html",
+    "static/css/main.c90ffc6e.chunk.css.map": "/Travel-Faro/static/css/main.c90ffc6e.chunk.css.map",
+    "static/js/2.a3a14cc9.chunk.js.LICENSE.txt": "/Travel-Faro/static/js/2.a3a14cc9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfb5a1f0.js",
+    "static/js/2.a3a14cc9.chunk.js",
+    "static/css/main.c90ffc6e.chunk.css",
+    "static/js/main.cb21a13e.chunk.js"
+  ]
+}
