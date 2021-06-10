@@ -1,0 +1,25 @@
+.Search{
+    background: dodgerblue;
+    flex: 0.5;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1.5px solid dodgerblue;
+}
+
+.Search__input{
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 52px;
+    padding: 10px;
+}
+
+.Search__btn:focus{
+    outline: none;
+}
+
+.Search__btn{
+    color: #fff !important;
+}

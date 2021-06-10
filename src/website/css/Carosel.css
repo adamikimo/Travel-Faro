@@ -1,0 +1,112 @@
+.carosel{
+    position: relative;
+    height: 100vh;
+    width: 110%;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    padding-left: 15px;
+    top: 7%;
+}
+
+.carosel__button{
+    z-index: 10;
+}
+
+.carosel__button:focus{
+    outline: none;
+}
+
+.carosel__img{
+    position: relative;
+    width: 1200px;
+    /* margin: 15px; */
+    height: 80vh;
+    border-radius: 15px;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.75);
+    object-fit: cover;
+}
+
+.slide{
+    opacity: 1;
+    animation: 2s slidingAnimation;
+}
+
+.active{
+    transform: scale(1.1);
+    animation: 1s scalingAnimation;
+}
+
+.carosel__img__text{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+@keyframes slidingAnimation{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes scalingAnimation{
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .carosel{
+        position: relative;
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        left: 0%;
+    }
+    .carosel__img{
+        position: relative;
+        width: 1000px;
+        margin: 15px;
+        height: 80vh;
+        border-radius: 15px;
+        box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.75);
+        object-fit: cover;
+        left: -3%;
+    }
+}
+
+@media only screen and (max-width: 1268px) {
+    .carosel{
+        position: relative;
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        left: 0%;
+    }
+}

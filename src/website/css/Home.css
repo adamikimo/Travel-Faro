@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-self: center;
+    align-self: center;
+    flex: 1;
+    height: 555px;
+    bottom: -100%;
+    left: 5%;
+}

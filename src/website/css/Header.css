@@ -1,0 +1,48 @@
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    z-index: 10000;
+    background-color: #fff;
+    flex: 1;
+    width: 100%;
+}
+
+.header__logo{
+    width: 160px;
+    height: 70px;
+}
+
+.header__humburgerIcon{
+    outline: none;
+}
+
+.header__humburgerIcon:focus{
+    outline: none;
+}
+
+.header__humburgerIcon > .MuiSvg-root{
+    color: dodgerblue !important;
+}
+
+.header__Logo{
+    width: 160px;
+    height: 70px;
+}
+
+.header__LogoTwo{
+    width: 160px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.header__iataEtaaLogos{
+    display: flex;
+}
+
+.header__left-part{
+    display: flex;
+    align-items: center;
+}

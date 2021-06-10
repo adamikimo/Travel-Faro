@@ -1,0 +1,46 @@
+.cardDetails{
+    margin-top: 10px;
+}
+
+.cardDetails__backBtn{
+    position: fixed;
+    z-index: 100000;
+    top: 0%;
+    left: 370%;
+}
+
+.cardDetails__backBtn > .MuiSvgIcon-root{
+    position: fixed;
+    z-index: 100000;
+    top: 0%;
+    left: 370%;
+}
+
+.cardDetails__backBtn:focus{
+    outline: none;
+}
+
+.cardDetails__img{
+    width: 100%;
+    height: 89.5vh;
+    position: absolute;
+}
+
+.cardDetails__title{
+    position: absolute;
+    top: 595px;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(235, 232, 232);
+}
+
+.overview{
+    position: absolute;
+    top: 101vh;
+    font-size: 25px;
+}

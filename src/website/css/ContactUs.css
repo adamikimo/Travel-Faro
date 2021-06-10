@@ -1,0 +1,23 @@
+.contactUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: 400px;
+    padding: 15px;
+    position: relative;
+}
+
+.contactUs__address-data{
+    position: absolute;
+    top: -15%;
+    left: 35%;
+}
+
+.contactUs__img{
+    width: 100%;
+    height: 190px;
+    position: absolute;
+    z-index: 100;
+    top: -50%;
+}

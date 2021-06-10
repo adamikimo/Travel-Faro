@@ -1,0 +1,19 @@
+.common__Excurtion{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.contact-navigator{
+    z-index: 10000000;
+    right: 320px;
+}
+
+.itenary{
+    display: flex;
+    margin-top: 700px;
+    flex-wrap: wrap; 
+    position: absolute;
+    font-size: 20px;  
+}
