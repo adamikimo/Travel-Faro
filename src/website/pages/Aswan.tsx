@@ -1,5 +1,9 @@
-import React, {useEffect, useState} from 'react'
-import http from '../server-calling/axios.js';
+// imports
+import React, {
+    useEffect, 
+    useState
+} from 'react'
+import http from '../server-calling/axios';
 import '../css/CardDetails.css';
 import Card from '../components/Home/Card';
 import AswanCardDetails from './CardDetails';
@@ -7,15 +11,20 @@ import IconButton from '@material-ui/core/IconButton';
 import ArrowBackIcon  from '@material-ui/icons/ArrowBack';
 import '../css/common.css';
 
+// interface
 interface Props {
 
 }
 
+// component
 const Aswan: React.FC<Props> = () => {
-    const [cards, setCards] = useState([]);
-    const [aswanCardDetails, setAswanCardDetails]: Array<any> = useState([]);
-    const [aswanIndex, setAswanIndex] = useState(0);
-    const [aswanVisibleCardDetails, setAswanVisibleCardDetails] = useState(false);
+    // states
+    const [cards, setCards] = useState<Array<any>>([]);
+    const [aswanCardDetails, setAswanCardDetails] = useState<Array<any>>([]);
+    const [aswanIndex, setAswanIndex] = useState<number>(0);
+    const [aswanVisibleCardDetails, setAswanVisibleCardDetails] = useState<boolean>(false);
+
+    // getting the data from the server
     useEffect(()=>{
         const getAswanCards = async() => {
             const req = await http.get('/cards/excurtions/aswan');
@@ -28,6 +37,11 @@ const Aswan: React.FC<Props> = () => {
         }
         getAswanCardDetails();
     },[]);
+
+    // conditionaly rendering a component
+    // i used this technique instead of the route params althoug the route params
+    // ..is easier but i thought to try it  and it worked perfectly
+    // ... and this is coded in the other pages
 if(aswanVisibleCardDetails === false)
     return (
         <div

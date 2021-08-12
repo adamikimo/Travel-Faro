@@ -1,4 +1,8 @@
-import React, { useState, useEffect }from 'react';
+// imports
+import React, { 
+    useState, 
+    useEffect 
+}from 'react';
 import '../css/common.css';
 import http from '../server-calling/axios';
 import Card from '../components/Home/Card';
@@ -7,6 +11,7 @@ import ElCairoCardDetails from './CardDetails';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import IconButton from '@material-ui/core/IconButton';
 
+// props interface
 interface Props {
 
 }

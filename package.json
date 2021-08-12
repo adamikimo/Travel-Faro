@@ -20,6 +20,7 @@
     "@types/react-dom": "^16.9.10",
     "autoprefixer": "^9.8.6",
     "axios": "^0.21.1",
+    "caniuse-lite": "^1.0.30001245",
     "express": "^4.17.1",
     "formik": "^2.2.6",
     "framer-motion": "^3.1.3",

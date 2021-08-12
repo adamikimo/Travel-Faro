@@ -70,7 +70,7 @@ const Home: React.FC<Props> = ({ onClick }) => {
             }
             </div>
             <Footer 
-            bottom='-430%'
+            bottom='-450%'
             />
         </div>
     )
