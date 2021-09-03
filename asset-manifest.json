@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Travel-Faro/static/css/main.7b947779.chunk.css",
-    "main.js": "/Travel-Faro/static/js/main.fcc2c208.chunk.js",
-    "main.js.map": "/Travel-Faro/static/js/main.fcc2c208.chunk.js.map",
+    "main.js": "/Travel-Faro/static/js/main.4fa5f943.chunk.js",
+    "main.js.map": "/Travel-Faro/static/js/main.4fa5f943.chunk.js.map",
     "runtime-main.js": "/Travel-Faro/static/js/runtime-main.bfb5a1f0.js",
     "runtime-main.js.map": "/Travel-Faro/static/js/runtime-main.bfb5a1f0.js.map",
     "static/js/2.a3a14cc9.chunk.js": "/Travel-Faro/static/js/2.a3a14cc9.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bfb5a1f0.js",
     "static/js/2.a3a14cc9.chunk.js",
     "static/css/main.7b947779.chunk.css",
-    "static/js/main.fcc2c208.chunk.js"
+    "static/js/main.4fa5f943.chunk.js"
   ]
 }
