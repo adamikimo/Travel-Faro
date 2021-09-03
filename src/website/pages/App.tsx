@@ -53,7 +53,7 @@ const App: React.FC<Props> = () => {
     />
     <Switch>
     <Route 
-    path='/'
+    path='/Travel-Faro'
     render={() => <Home 
     onClick={closeSidebar}
     />}
